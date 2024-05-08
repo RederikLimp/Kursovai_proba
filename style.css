@@ -10,7 +10,7 @@ body {
 
 /* Стили для фиксированного блока .border-nav */
 .border-nav {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
@@ -22,6 +22,10 @@ body {
     justify-content: space-evenly;
     align-items: center;
     background-color: #6c3b3bef;
+}
+
+.nav2{
+    display: flex;
 }
 
 .item-menu {
@@ -38,7 +42,7 @@ body {
 }
 
 .item-menu ul li {
-    margin-right: 10px; /* Отступ между элементами списка */
+    margin-right: 10px;
 }
 
 .logo-img img {
@@ -46,26 +50,26 @@ body {
     height: 50px;
 }
 
-.item-bron, 
-.item-prices, 
-.item-gallery, 
-.item-reviews, 
+.item-bron,
+.item-prices,
+.item-gallery,
+.item-reviews,
 .item-contacts {
     padding: 20px;
     cursor: pointer;
 }
 
-.item-prices, 
-.item-gallery, 
-.item-reviews, 
+.item-prices,
+.item-gallery,
+.item-reviews,
 .item-contacts {
     border-left: 1px solid #ccc;
 }
 
-.item-bron:hover, 
-.item-prices:hover, 
-.item-gallery:hover, 
-.item-reviews:hover, 
+.item-bron:hover,
+.item-prices:hover,
+.item-gallery:hover,
+.item-reviews:hover,
 .item-contacts:hover {
     background-color: #e0e0e0;
 }
@@ -74,7 +78,7 @@ h2 {
     font-size: 1.2rem;
     color: #333;
     margin: 0;
-    line-height: 1.5; /* Увеличение межстрочного интервала */
+    line-height: 1.5;
 }
 
 .nav-img {

@@ -1,4 +1,7 @@
 * {
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+    font-style: normal;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -26,10 +29,24 @@ body {
 
 .nav2{
     display: flex;
+    flex-direction: column;
+}
+.nav2 h3{
+    margin-right: 200px;
+}
+
+.nav2 div {
+    display: flex;
+    flex-direction: row;
 }
 
 .item-menu {
-    background-color: #f0f0f0;
+    background-color: #6c3b3b81;
+}
+
+.item-menu a {
+    color: rgb(255, 255, 255); /* Устанавливаем белый цвет текста */
+    text-decoration: none; /* Убираем подчеркивания у ссылок */
 }
 
 .item-menu ul {
@@ -118,15 +135,46 @@ h2 {
     flex-direction: row;
 }
 
-.button-bron {
-    width: 200px;
-    height: 50px;
-    background-color: red;
+.button-bron a {
+    color: rgb(255, 255, 255); /* Устанавливаем белый цвет текста */
+    text-decoration: none; /* Убираем подчеркивания у ссылок */
 }
 
 .button-bron2 {
-    width: 0;
-    height: 0;
+    text-align: center;
+    margin-top: 20px; /* Регулируйте отступ сверху по вашему желанию */
+}
+
+.button-bron2 button {
+    background-color: rgb(128, 0, 0);
+    color: white;
+    border: none;
+    padding: 25px 100px;
+    cursor: pointer;
+}
+.Uslugi {
+    height: 200px;
+    display: grid;
+    background-color: rgb(115, 88, 56);
+    padding: 10px; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Uslugi h1 {
+    color: rgb(255, 255, 255);
+}
+
+.Uslugi ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    padding: 0;
+}
+
+.Uslugi li {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
 }
 
 .contact-main {

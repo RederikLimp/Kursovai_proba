@@ -230,10 +230,10 @@ footer {
     margin-top: 10px;
 }
 .nomera-osnova{
+    text-align: center; /* Центрирование текста внутри контейнера */
     padding: 70px; /* отступы по бокам */
 }
 .opisanie-nomer {
-    width: 800px;
     padding-bottom: 40px;
 }
 
@@ -309,4 +309,36 @@ footer {
 .nomer-lux img {
     max-width: 500px;
     margin-right: 20px;
+}
+.conteiner-gallerei {
+    text-align: center; /* Центрирование текста внутри контейнера */
+}
+
+.conteiner-gallerei h1 {
+    margin-top: 20px; /* Отступ сверху для заголовка */
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Расстояние между изображениями */
+    justify-content: space-evenly; /* Выравнивание элементов по центру */
+}
+
+.gallery div {
+    width: 45%; /* Ширина каждой колонки */
+    text-align: center; /* Выравнивание по центру */
+}
+
+.gallery img {
+    max-width: 100%; /* Максимальная ширина изображения */
+    height: auto; /* Автоматическая высота изображения */
+}
+.hotel-galerel {
+    max-width: 1500px; /* Максимальная ширина изображения */
+    height: 20px; /* Автоматическая высота изображения */
+}
+
+.caption {
+    margin-top: 10px; /* Отступ от изображения */
+    font-weight: bold; /* Жирный шрифт для подписи */
 }

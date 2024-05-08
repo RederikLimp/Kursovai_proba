@@ -342,3 +342,50 @@ footer {
     margin-top: 10px; /* Отступ от изображения */
     font-weight: bold; /* Жирный шрифт для подписи */
 }
+.contacts {
+    margin: 20px auto; /* Выравнивание блока по центру */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    text-align: center; /* Центрирование всего текста внутри блока */
+}
+
+.contacts h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.contacts h3,
+.contacts h4 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.contacts address {
+    font-style: normal;
+}
+
+.contacts ul {
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Возвращаем выравнивание текста в элементах списка */
+}
+
+.contacts ul li {
+    margin-bottom: 10px;
+}
+
+.contacts a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+
+.contacts .email,
+.contacts .phone {
+    margin-bottom: 10px;
+}

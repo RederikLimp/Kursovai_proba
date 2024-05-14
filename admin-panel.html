@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ошибка 404 - Страница не найдена</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -32,19 +32,26 @@
             </div>
 
         </div>
-        <img class="nav-img" src="/img/img-nav.png" alt="Image">
-    </div>
-</body>
-<footer>
-    <div class="footer-content">
-        <a href="Glava.html">Отель «FSe», Томск</a>
-        <p>© 2024 Официальный сайт</p>
-        <p>Томск, Герцена 18</p>
-        <p>+7(954)68-25-14</p>
-        <div class="weather-info">
-            <p>+1 °C</p>
-            <p>Погода в Томске</p>
+        <div class="admin-login-page">
+            <h1 >Вход для администратора 👨‍💼</h1>
+            <form class="admin-login-form" action="auth.php" method="post">
+                <input class="admin-login-input" type="text" name="login" placeholder="Логин" required><br>
+                <input class="admin-login-input" type="password" name="password" placeholder="Пароль" required><br>
+                <button class="admin-login-button" type="submit">Войти</button>
+            </form>
         </div>
-    </div>
-</footer>
+
+    <footer>
+        <div class="footer-content">
+            <a href="Glava.html">Отель «FSe», Томск</a>
+            <p>© 2024 Официальный сайт</p>
+            <p>Томск, Герцена 18</p>
+            <p>+7(954)68-25-14</p>
+            <div class="weather-info">
+                <p>+1 °C</p>
+                <p>Погода в Томске</p>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>

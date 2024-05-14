@@ -182,10 +182,10 @@ h2 {
 .contact-main {
     height: 200px;
     display: grid;
-    grid-template-columns: repeat(3, 120px);
     background-color: antiquewhite;
-    padding: 10px;
+    padding: 10px; 
     margin: 0 auto;
+    text-align: center;
 }
 
 .contact-main h1 {
@@ -195,17 +195,15 @@ h2 {
 }
 
 .contact-main ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     list-style-type: none;
     padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
 }
 
 .contact-main li {
-    width: 260px;
-    padding: 50px;
-    border-radius: 25px;
+    color: rgb(172, 172, 172);
+    margin-bottom: 10px;    
 }
 
 footer {
